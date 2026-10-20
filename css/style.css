@@ -1,0 +1,43 @@
+header ul > li {
+    background-color: rgb(140, 130, 221);
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+#pageprincipal {
+    background-color: rgb(170, 158, 250);
+}
+#accueil {
+    background-color: rgb(140, 130, 221);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+#CV {
+    background-color: rgb(140, 130, 221);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+#présentation {
+    background-color: rgb(207, 185, 226);
+}
+#formation {
+    background-color: rgb(207, 185, 226);
+}
+#experiencepro {
+    background-color: rgb(207, 185, 226);
+}
+#rythmepeda {
+    background-color: rgb(207, 185, 226);
+}
+#competences {
+    background-color: rgb(207, 185, 226);
+}
+#centresint {
+    background-color: rgb(207, 185, 226);
+}
+#coordonnees {
+    background-color: rgb(207, 185, 226);
+}
