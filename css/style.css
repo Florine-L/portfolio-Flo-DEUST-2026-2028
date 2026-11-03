@@ -2,6 +2,7 @@
     --primary-spacing: 15px;
 }
 body {
+    background: rgb(228, 224, 255);
     padding: var(--primary-spacing);
 }
 header ul > li {
@@ -12,7 +13,87 @@ header ul > li {
     text-align: center;
 }
 header ul > li {
-    display: flex
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+button {
+    background-color: rgb(140, 130, 221);
+    color: black;
+    transition: background-color 0.5s;
+}
+button:hover {
+    background-color: rgb(159, 151, 216);
+}
+#pageprincipal {
+    background-color: rgb(190, 182, 241);
+    display: inline-block;
+    width: 1230px;
+    text-align: center;
+}
+#accueil {
+    background-color: rgb(140, 130, 221);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+#texte_de_bienvenue {
+    background-color: rgb(161, 152, 219);
+}
+#CV {
+    background-color: rgb(140, 130, 221);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+#présentation {
+    background-color: rgb(161, 152, 219);
+}
+#formation {
+    background-color: rgb(161, 152, 219);
+}
+#experiencepro {
+    background-color: rgb(161, 152, 219);
+}
+#rythmepeda {
+    background-color: rgb(161, 152, 219);
+}
+#competences {
+    background-color: rgb(161, 152, 219);
+}
+#centresint {
+    background-color: rgb(161, 152, 219);
+}
+#coordonnees {
+    background-color: rgb(161, 152, 219);
+}
+#projets {
+    background-color: rgb(140, 130, 221);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+#contact {
+    background-color: rgb(140, 130, 221);
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 480px){
+    body {
+    padding: var(--primary-spacing);
+}
+header ul > li {
+    background-color: rgb(125, 123, 151);
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+header ul > li {
     justify-content: space-between;
     align-items: center;
     list-style:none;
@@ -81,4 +162,5 @@ button:hover {
     display: inline-block;
     width: 200px;
     text-align: center;
+}
 }
