@@ -22,10 +22,11 @@ header ul > li {
 button {
     background-color: rgb(140, 130, 221);
     color: black;
+    width: 175px;
     transition: background-color 0.5s;
 }
 button:hover {
-    background-color: rgb(159, 151, 216);
+    background-color: rgb(217, 212, 255);
 }
 #pageprincipal {
     background-color: rgb(190, 182, 241);
@@ -80,6 +81,34 @@ button:hover {
     display: inline-block;
     width: 200px;
     text-align: center;
+}
+#NOM {
+    background-color: rgb(161, 152, 219);
+    display: inline-block;
+    text-align: center;
+    width: 75px;
+    margin: 15px;
+}
+#EMAIL {
+    background-color: rgb(161, 152, 219);
+    display: inline;
+    text-align: center;
+    width: 75px;
+    margin: 15px;
+}
+#SUJET {
+    background-color: rgb(161, 152, 219);
+    display: inline-block;
+    text-align: center;
+    width: 75px;
+    margin: 15px;
+}
+#MESSAGE {
+    background-color: rgb(161, 152, 219);
+    display: inline-block;
+    text-align: center;
+    width: 75px;
+    margin: 15px;
 }
 
 @media (max-width: 480px){

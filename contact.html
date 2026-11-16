@@ -14,11 +14,11 @@
         <h1>Mon Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="index.html"> accueil </a></li>
-                <li><a href="cv.html">cv</a></li>
-                <li><a href="projets.html">projets</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href=https://www.univ-littoral.fr/"">ulco</a></li>
+                <button class="button:hover"><a href="index.html">accueil</a></button>
+                <button class="button:hover"><a href="cv.html">cv</a></button>
+                <button class="button:hover"><a href="projets.html">projets</a></button>
+                <button class="button:hover"><a href="contact.html">contact</a></button>
+                <button class="button:hover"><a href="https://www.univ-littoral.fr/">ulco</a></button>
             </ul>
         </nav>
     </header>
@@ -26,6 +26,40 @@
         <section id="contact">
         <h2>Contact</h2>
         </section>
+        <form action="#" method="post">
+            <section>
+            <section id="NOM">
+            <label for="nom">Nom :</label>
+            </section>
+            <input type="text" id="nom" name="user_name" required>
+            </section>
+
+            <section>
+            <section id="EMAIL">
+            <label for="email">Adresse email :</label>
+            </section>
+            <input type="email" id="email" name="user_email" required>
+            </section>
+            
+            <section>
+            <section id="SUJET">
+            <label for="sujet">Sujet :</label>
+            </section>
+            <select id="sujet" name="user_subject">
+                <option value="projet">Proposition de projet</option>
+                <option value="info">Demande d'information</option>
+            </select>
+            </section>
+
+            <section>
+            <section id="MESSAGE">
+            <label for="message">Message :</label>
+            </section>
+                <textarea id="message" name="user_message"></textarea>
+            
+            <button type="submit">Envoyer</button>
+            </section>
+        </form>
     </main>
         </section>
     <footer>
