@@ -42,6 +42,8 @@ button:hover {
 }
 #texte_de_bienvenue {
     background-color: rgb(161, 152, 219);
+    margin: 15px;
+    padding: 5px;
 }
 #CV {
     background-color: rgb(140, 130, 221);
@@ -49,26 +51,10 @@ button:hover {
     width: 200px;
     text-align: center;
 }
-#présentation {
+.texte-infos {
     background-color: rgb(161, 152, 219);
-}
-#formation {
-    background-color: rgb(161, 152, 219);
-}
-#experiencepro {
-    background-color: rgb(161, 152, 219);
-}
-#rythmepeda {
-    background-color: rgb(161, 152, 219);
-}
-#competences {
-    background-color: rgb(161, 152, 219);
-}
-#centresint {
-    background-color: rgb(161, 152, 219);
-}
-#coordonnees {
-    background-color: rgb(161, 152, 219);
+    margin: 10px;
+    padding: 5px;
 }
 #projets {
     background-color: rgb(140, 130, 221);
