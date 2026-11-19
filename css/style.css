@@ -1,181 +1,212 @@
 :root {
-    --primary-spacing: 15px;
+  --primary-spacing: 15px;
 }
 body {
-    background: rgb(228, 224, 255);
-    padding: var(--primary-spacing);
+  background: rgb(228, 224, 255);
+  padding: var(--primary-spacing);
+}
+header ul {
+  margin: 10px auto;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
 }
 header ul > li {
-    background-color: rgb(140, 130, 221);
-    margin: 5px;
-    display: inline-block;
-    width: 200px;
-    text-align: center;
+  background-color: rgb(140, 130, 221);
+  width: 200px;
+  text-align: center;
+  border-radius: 4px;
 }
 header ul > li {
-    justify-content: space-between;
-    align-items: center;
-    list-style:none;
-    padding: 0;
-    margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 button {
-    background-color: rgb(140, 130, 221);
-    color: black;
-    width: 175px;
-    transition: background-color 0.5s;
+  background-color: rgb(140, 130, 221);
+  color: black;
+  width: 225px;
+  transition: background-color 0.5s;
 }
-button:hover {
-    background-color: rgb(217, 212, 255);
+.lien {
+  display: inline-block;
+  width: 100%;
+}
+.lien:hover {
+  background-color: rgb(217, 212, 255);
+  border-radius: 4px;
 }
 #pageprincipal {
-    background-color: rgb(190, 182, 241);
-    display: inline-block;
-    width: 1230px;
-    text-align: center;
+  background-color: rgb(190, 182, 241);
+  display: inline-block;
+  width: 1230px;
+  text-align: center;
 }
 #accueil {
-    background-color: rgb(140, 130, 221);
-    display: inline-block;
-    width: 200px;
-    text-align: center;
+  background-color: rgb(140, 130, 221);
+  display: inline-block;
+  width: 200px;
+  text-align: center;
 }
 #texte_de_bienvenue {
-    background-color: rgb(161, 152, 219);
-    margin: 15px;
-    padding: 5px;
+  background-color: rgb(161, 152, 219);
+  margin: 15px;
+  padding: 5px;
+}
+#Logo {
+  background-color: rgb(161, 152, 219);
+  margin-top: 1px;
+  display: block;
+  width: 115px;
+  text-align: center;
 }
 #CV {
-    background-color: rgb(140, 130, 221);
-    display: inline-block;
-    width: 200px;
-    text-align: center;
+  background-color: rgb(140, 130, 221);
+  display: inline-block;
+  width: 200px;
+  text-align: center;
 }
 .texte-infos {
-    background-color: rgb(161, 152, 219);
-    margin: 10px;
-    padding: 5px;
+  background-color: rgb(161, 152, 219);
+  margin: 10px;
+  padding: 5px;
 }
 #projets {
-    background-color: rgb(140, 130, 221);
-    display: inline-block;
-    width: 200px;
-    text-align: center;
+  background-color: rgb(140, 130, 221);
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+.conteneur {
+  display: grid;
+
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 15px);
+
+  gap: 10px;
+}
+.Logo_projets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #contact {
-    background-color: rgb(140, 130, 221);
-    display: inline-block;
-    width: 200px;
-    text-align: center;
+  background-color: rgb(140, 130, 221);
+  display: inline-block;
+  width: 200px;
+  text-align: center;
 }
 #NOM {
-    background-color: rgb(161, 152, 219);
-    display: inline-block;
-    text-align: center;
-    width: 75px;
-    margin: 15px;
+  background-color: rgb(161, 152, 219);
+  display: inline-block;
+  text-align: center;
+  width: 75px;
+  margin: 15px;
 }
 #EMAIL {
-    background-color: rgb(161, 152, 219);
-    display: inline;
-    text-align: center;
-    width: 75px;
-    margin: 15px;
+  background-color: rgb(161, 152, 219);
+  display: inline;
+  text-align: center;
+  width: 75px;
+  margin: 15px;
 }
 #SUJET {
-    background-color: rgb(161, 152, 219);
-    display: inline-block;
-    text-align: center;
-    width: 75px;
-    margin: 15px;
+  background-color: rgb(161, 152, 219);
+  display: inline-block;
+  text-align: center;
+  width: 75px;
+  margin: 15px;
 }
 #MESSAGE {
-    background-color: rgb(161, 152, 219);
-    display: inline-block;
-    text-align: center;
-    width: 75px;
-    margin: 15px;
+  background-color: rgb(161, 152, 219);
+  display: inline-block;
+  text-align: center;
+  width: 75px;
+  margin: 15px;
 }
 
-@media (max-width: 480px){
-    body {
+@media (max-width: 480px) {
+  body {
     padding: var(--primary-spacing);
-}
-header ul > li {
+  }
+  header ul > li {
     background-color: rgb(125, 123, 151);
     margin: 5px;
     display: inline-block;
     width: 200px;
     text-align: center;
-}
-header ul > li {
+  }
+  header ul > li {
     justify-content: space-between;
     align-items: center;
-    list-style:none;
+    list-style: none;
     padding: 0;
     margin: 0;
-}
-button {
+  }
+  button {
     background-color: rgb(140, 130, 221);
     color: black;
     transition: background-color 0.5s;
-}
-button:hover {
+  }
+  button:hover {
     background-color: rgb(159, 151, 216);
-    color:#38316d;
-}
-#pageprincipal {
+    color: #38316d;
+  }
+  #pageprincipal {
     background-color: rgb(190, 182, 241);
     display: inline-block;
     width: 1230px;
     text-align: center;
-}
-#accueil {
+  }
+  #accueil {
     background-color: rgb(140, 130, 221);
     display: inline-block;
     width: 200px;
     text-align: center;
-}
-#texte_de_bienvenue {
+  }
+  #texte_de_bienvenue {
     background-color: rgb(207, 185, 226);
-}
-#CV {
+  }
+  #CV {
     background-color: rgb(140, 130, 221);
     display: inline-block;
     width: 200px;
     text-align: center;
-}
-#présentation {
+  }
+  #présentation {
     background-color: rgb(207, 185, 226);
-}
-#formation {
+  }
+  #formation {
     background-color: rgb(207, 185, 226);
-}
-#experiencepro {
+  }
+  #experiencepro {
     background-color: rgb(207, 185, 226);
-}
-#rythmepeda {
+  }
+  #rythmepeda {
     background-color: rgb(207, 185, 226);
-}
-#competences {
+  }
+  #competences {
     background-color: rgb(207, 185, 226);
-}
-#centresint {
+  }
+  #centresint {
     background-color: rgb(207, 185, 226);
-}
-#coordonnees {
+  }
+  #coordonnees {
     background-color: rgb(207, 185, 226);
-}
-#projets {
+  }
+  #projets {
     background-color: rgb(140, 130, 221);
     display: inline-block;
     width: 200px;
     text-align: center;
-}
-#contact {
+  }
+  #contact {
     background-color: rgb(140, 130, 221);
     display: inline-block;
     width: 200px;
     text-align: center;
-}
+  }
 }

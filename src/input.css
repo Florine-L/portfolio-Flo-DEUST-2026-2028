@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primaire: #4d4d4d;
+}
+@utility ombre {
+    box-shadow: 0 4px 12px #000000;
+}
